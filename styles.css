@@ -7,10 +7,17 @@ div{
 }
 header{
     background: white;
-    padding:10px;
+    /* padding:10px; */
+    /* display: flex; */
+    margin: 0;
+    
 }
 header h1{
     margin:0
+}
+.text{
+    margin-top: -30px;
+    margin-left: 40px;
 }
 div.post{
     background: white;
@@ -19,22 +26,35 @@ div.post{
 div.post img{
     width:100%;
 }
-div.post .post-header div:first-child{
-    display: inline-block;
+/* div.post .post-header div:first-child{
+    display: flex;
     width: 80%;
 }
 div.post .post-header div:last-child{
-    display: inline-block;
+    display: flex;
     width: 20%;
     padding: 10px;
     text-align: right;
     color: grey;
-}
-div.post h2, div.post p{
+} */
+/* div.post h2, div.post p{
     padding:10px;
     margin: 0;
-}
+} */
 div.container{
     width: 600px;
     margin: auto;
+}
+
+.fa-bookmark{
+    float: right;
+    padding-right: 10px
+}
+.fa-heart{
+    padding-left: 10px
+}
+.fa-ellipsis-v{
+    float: right;
+    padding-right: 10px;
+    margin-top: -35px;
 }
